@@ -9,9 +9,8 @@
   
   html, body {
     font-family: "Poppins", sans-serif;
-    background-color: #000; /* Black background */
+    background-color: #000; /* Fundo preto */
     color: #fff;
-    /* Removed scroll-behavior to avoid any auto-scrolling quirks */
   }
   
   /********************************
@@ -68,7 +67,7 @@
    * HERO
    ********************************/
   .hero {
-    padding: 6rem 0 3rem; /* More top space for a bold look */
+    padding: 6rem 0 3rem;
     text-align: center;
     background: #000;
   }
@@ -107,11 +106,10 @@
   }
   
   /********************************
-   * BORDERED SECTIONS
+   * SEÇÕES BORDADAS
    ********************************/
   .sobre,
   .servicos,
-  .resultados,
   .contato,
   .redes-sociais {
     border-top: 1px solid #333;
@@ -119,7 +117,7 @@
   }
   
   /********************************
-   * TITLES & DESCRIPTIONS
+   * TÍTULOS & DESCRIÇÕES
    ********************************/
   h2 {
     font-size: 2rem;
@@ -169,32 +167,6 @@
   }
   
   /********************************
-   * RESULTADOS (Case Studies)
-   ********************************/
-  .resultados .cases {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-    margin-top: 2rem;
-  }
-  
-  .case-item {
-    background-color: #111;
-    padding: 2rem;
-    border-radius: 8px;
-    width: 280px;
-    text-align: left;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  }
-  
-  .case-item h3 {
-    margin-bottom: 1rem;
-    color: #0b6ec6;
-    font-size: 1.2rem;
-  }
-  
-  /********************************
    * CONTATO & REDES SOCIAIS
    ********************************/
   .contato,
@@ -227,7 +199,7 @@
   }
   
   /********************************
-   * FOOTER
+   * RODAPÉ
    ********************************/
   footer {
     border-top: 1px solid #333;
@@ -239,7 +211,23 @@
   }
   
   /********************************
-   * RESPONSIVE
+   * ANIMAÇÃO DE SCROLL
+   ********************************/
+  /* Estado inicial (invisível) */
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  /* Quando visível na tela */
+  .animate-on-scroll.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /********************************
+   * RESPONSIVIDADE
    ********************************/
   @media (max-width: 768px) {
     .header-content {
@@ -251,8 +239,7 @@
       font-size: 2rem;
     }
   
-    .card,
-    .case-item {
+    .card {
       width: 100%;
       max-width: 400px;
     }
