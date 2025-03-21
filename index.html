@@ -1,169 +1,131 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Promethya</title>
-  <!-- Fonte Google (Poppins) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link 
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" 
-    rel="stylesheet"
-  />
-  <!-- CSS Externo -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <!-- CABEÇALHO -->
   <header class="header">
-    <div class="container header-content">
+    <nav class="container header-content">
+      <ul class="header-nav">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+      </ul>
+      
       <div class="logo">Promethya</div>
-      <nav>
-        <ul>
-          <li><a href="#inicio">Início</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#contato">Contato</a></li>
-          <li><a href="#redes-sociais">Redes Sociais</a></li>
-        </ul>
-      </nav>
-    </div>
+      
+      <ul class="header-nav">
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#redes">Redes</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- SEÇÃO INÍCIO -->
-  <section class="hero fade-up" id="inicio">
-    <div class="container hero-content">
-      <h1 class="hero-title">Inovação para a Sua Transformação</h1>
-      <p class="hero-subtitle">
-        Bem-vindo(a) à <strong>Promethya</strong>, iniciativa  fundada pelo
-        <strong>Dr. Vitor Panizzon Spanholo</strong>. Inspirada no espírito de Prometeu,
-        ofereço soluções transformadoras em <strong>emagrecimento</strong>, <strong>reposição hormonal</strong> e
-        <strong>otimização de performance esportiva</strong>.
-      </p>
-      <a href="#contato" class="btn-primary hero-cta">Fale Comigo</a>
-    </div>
-  </section>
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main>
+    <!-- SEÇÃO HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="gradient-text">Inovação</span> para<br>
+          Sua Transformação
+        </h1>
+        <div class="scroll-indicator"></div>
+      </div>
+    </section>
 
-  <!-- SEÇÃO SOBRE -->
-  <section class="about fade-left" id="sobre">
-    <div class="container about-flex">
-      <div class="about-text">
-        <h2>Sobre a Promethya</h2>
-        <p class="description">
-          Olá! Sou o <strong>Dr. Vitor Panizzon Spanholo</strong> e atuo de forma individual na Promethya,
-          uma marca que une inovação, conhecimento científico e paixão pela saúde. 
-          Assim como Prometeu trouxe o fogo à humanidade, trago as perspectivas
-          e abordagens para que eu possa transformar seu corpo.
-        </p>
-        <p class="description">
-          Meu objetivo é ajudar cada pessoa a conquistar resultados reais e duradouros,
-          sempre embasado nas melhores práticas médicas e em uma visão personalizada
-          de saúde e bem-estar.
+    <!-- SEÇÃO SOBRE -->
+    <section class="text-section" id="sobre">
+      <div class="container">
+        <h2 class="section-title">Dr. Vitor Panizzon Spanholo</h2>
+        <p class="section-text">
+          Fundador da Promethya, trago uma abordagem revolucionária em saúde e performance humana. 
+          Combinando conhecimento médico avançado com tecnologia de ponta, ofereço soluções 
+          personalizadas para transformação física e mental.
         </p>
       </div>
-      <!-- (Opcional) Espaço para imagem futura
-      <div class="about-img">
-        <img src="images/sobre.jpg" alt="Dr. Vitor Panizzon Spanholo" />
-      </div>
-      -->
-    </div>
-  </section>
+    </section>
 
-  <!-- SEÇÃO SERVIÇOS -->
-  <section class="services fade-right" id="servicos">
-    <div class="container">
-      <h2>Serviços</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Emagrecimento</h3>
-          <p>
-            Abordagem clínica e individualizada para perda de peso saudável e duradoura,
-            aliando nutrição, exercício e acompanhamento médico contínuo.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Reposição Hormonal</h3>
-          <p>
-            Protocolos personalizados para equilibrar níveis hormonais, 
-            melhorar energia, vitalidade e bem-estar de forma segura e eficaz.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Otimização Esportiva</h3>
-          <p>
-            Orientação médica para atletas e entusiastas que buscam aprimorar 
-            desempenho físico, prevenir lesões e maximizar resultados.
-          </p>
+    <!-- SEÇÃO SERVIÇOS -->
+    <section class="cards-section" id="servicos">
+      <div class="container">
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>01</h3>
+            <h4>Emagrecimento</h4>
+            <p>Protocolos científicos para perda de peso sustentável e saúde metabólica.</p>
+          </article>
+          <article class="service-card">
+            <h3>02</h3>
+            <h4>Reposição Hormonal</h4>
+            <p>Equilíbrio hormonal personalizado para vitalidade e longevidade.</p>
+          </article>
+          <article class="service-card">
+            <h3>03</h3>
+            <h4>Otimização Esportiva</h4>
+            <p>Maximização de performance atlética com segurança e eficácia.</p>
+          </article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SEÇÃO CONTATO -->
-  <section class="contact fade-up" id="contato">
-    <div class="container">
-      <h2>Contato</h2>
-      <p class="description">
-        Quer agendar uma consulta ou saber mais sobre como posso te ajudar?
-        Entre em contato agora mesmo.
-      </p>
-      <div class="contact-links">
-        <a 
-          href="https://wa.me/5554999590944" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          class="btn-secondary"
-        >
-          WhatsApp
-        </a>
-        <a 
-          href="mailto:vitorpanizzon@gmail.com" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          class="btn-secondary"
-        >
-          E-mail
-        </a>
+    <!-- SEÇÃO CONTATO -->
+    <section class="contact-section" id="contato">
+      <div class="container">
+        <div class="contact-content">
+          <h2 class="section-title">Transforme Sua Vida</h2>
+          <p class="section-text">Agende sua consulta para uma abordagem personalizada</p>
+          <div class="contact-buttons">
+            <a href="https://wa.me/5554999590944" class="button">
+              <span>Agendar por WhatsApp</span>
+            </a>
+            <a href="mailto:vitorpanizzon@gmail.com" class="button">
+              <span>Enviar E-mail</span>
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SEÇÃO REDES SOCIAIS -->
-  <section class="socials fade-up" id="redes-sociais">
-    <div class="container">
-      <h2>Redes Sociais</h2>
-      <p class="description">
-        Acompanhe conteúdos exclusivos, dicas de saúde e muito mais:
-      </p>
-      <div class="social-links">
-        <a 
-          href="https://youtube.com/@vitorpzsp" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          class="btn-secondary"
-        >
-          YouTube
-        </a>
-        <a 
-          href="https://instagram.com/vitorpzsp" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          class="btn-secondary"
-        >
-          Instagram
-        </a>
+    <!-- SEÇÃO REDES SOCIAIS -->
+    <section class="social-section" id="redes">
+      <div class="container">
+        <div class="social-content">
+          <div class="social-links">
+            <a href="https://youtube.com/@vitorpzsp" class="social-link">
+              <span>YouTube</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+              </svg>
+            </a>
+            <a href="https://instagram.com/vitorpzsp" class="social-link">
+              <span>Instagram</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <!-- RODAPÉ -->
-  <footer>
-    <p>&copy; 2025 Promethya. Todos os direitos reservados. Fundada pelo Dr. Vitor Panizzon Spanholo.</p>
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Promethya. Todos os direitos reservados.</p>
+    </div>
   </footer>
 
-  <!-- SCRIPT DE ANIMAÇÃO -->
   <script src="script.js"></script>
 </body>
 </html>
