@@ -9,7 +9,7 @@
 
 html, body {
   font-family: "Poppins", sans-serif;
-  background-color: #000; /* Fundo preto */
+  background-color: #000; /* Black background */
   color: #fff;
 }
 
@@ -69,7 +69,7 @@ html, body {
 .hero {
   padding: 6rem 0 3rem;
   text-align: center;
-  background: #000;
+  background: #000; /* Minimal, no image */
 }
 
 .hero-content {
@@ -106,14 +106,14 @@ html, body {
 }
 
 /********************************
- * SEÇÃO SOBRE
+ * ABOUT
  ********************************/
-.sobre {
+.about {
   border-top: 1px solid #333;
   padding: 4rem 0;
 }
 
-.sobre-flex {
+.about-flex {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -121,18 +121,19 @@ html, body {
   justify-content: center;
 }
 
-.sobre-text {
+.about-text {
   flex: 1;
   min-width: 280px;
+  text-align: left;
 }
 
-.sobre h2 {
+.about h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: #0b6ec6;
 }
 
-.descricao {
+.description {
   font-size: 1.1rem;
   line-height: 1.6;
   color: #ccc;
@@ -140,15 +141,15 @@ html, body {
 }
 
 /********************************
- * SERVIÇOS
+ * SERVICES
  ********************************/
-.servicos {
+.services {
   border-top: 1px solid #333;
   padding: 4rem 0;
   text-align: center;
 }
 
-.servicos h2 {
+.services h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: #0b6ec6;
@@ -183,15 +184,15 @@ html, body {
 }
 
 /********************************
- * CONTATO & REDES SOCIAIS
+ * CONTACT & SOCIALS
  ********************************/
-.contato, .redes-sociais {
+.contact, .socials {
   border-top: 1px solid #333;
   padding: 4rem 0;
   text-align: center;
 }
 
-.contato h2, .redes-sociais h2 {
+.contact h2, .socials h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: #0b6ec6;
@@ -221,7 +222,7 @@ html, body {
 }
 
 /********************************
- * RODAPÉ
+ * FOOTER
  ********************************/
 footer {
   border-top: 1px solid #333;
@@ -233,9 +234,8 @@ footer {
 }
 
 /********************************
- * ANIMAÇÕES DE SCROLL
+ * FADE-IN ANIMATIONS
  ********************************/
-/* Estado inicial (invisível e deslocado) */
 .fade-up, .fade-left, .fade-right {
   opacity: 0;
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -244,23 +244,20 @@ footer {
 .fade-up {
   transform: translateY(20px);
 }
-
 .fade-left {
   transform: translateX(-20px);
 }
-
 .fade-right {
   transform: translateX(20px);
 }
 
-/* Quando a seção está visível */
 .appear {
   opacity: 1;
   transform: translate(0, 0);
 }
 
 /********************************
- * RESPONSIVIDADE
+ * RESPONSIVE
  ********************************/
 @media (max-width: 768px) {
   .header-content {
@@ -272,8 +269,7 @@ footer {
     font-size: 2rem;
   }
 
-  .sobre-flex {
-    flex-direction: column;
+  .about-text {
     text-align: center;
   }
 
