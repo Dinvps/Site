@@ -16,5 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, observerOptions);
 
-  animatedSections.forEach(section => observer.observe(section));
+  animatedSections.forEach(section => {
+    observer.observe(section);
+  });
 });
