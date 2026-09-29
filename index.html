@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://promethya.com/">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:locale:alternate" content="en_US">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://promethya.com/img/vitor-sobre.jpg">
+  <meta name="twitter:card" content="summary_large_image">
 
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23000'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='15' text-anchor='middle' fill='%23FFDA98'%3EVS%3C/text%3E%3C/svg%3E">
 
@@ -71,11 +72,10 @@
     <!-- HERO -->
     <section class="hero" id="top">
       <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-photo">
+        <img src="img/vitor-hero.jpg" alt="Dr. Vitor Panizzon Spanholo" width="1335" height="2000" fetchpriority="high">
+      </div>
       <div class="container hero-inner">
-        <div class="portrait" aria-hidden="true">
-          <!-- Trocar por: <img src="foto.jpg" alt="Dr. Vitor Panizzon Spanholo"> -->
-          <span>VS</span>
-        </div>
         <p class="eyebrow" data-i18n="eyebrow">MÉDICO · CRM-RS [nº]</p>
         <h1 class="gold">Dr. Vitor Spanholo</h1>
         <p class="hero-sub" data-i18n="heroTitle">Medicina baseada em evidência, com número e fonte</p>
@@ -239,9 +239,14 @@
     <!-- SOBRE / MINI CV -->
     <section class="section section-alt" id="sobre" aria-labelledby="about-title">
       <div class="container">
-        <p class="section-kicker" data-i18n="aboutKicker">Sobre</p>
-        <h2 class="section-title" id="about-title">Dr. Vitor Panizzon Spanholo</h2>
-        <p class="section-intro wide" data-i18n="aboutIntro">Médico formado pela ULBRA, com prática em urgência e atenção primária no Rio Grande do Sul. Meu interesse acadêmico está em oncologia e endocrinologia. O que une os dois é o mesmo princípio do conteúdo que publico: decidir com base no que o estudo mostrou e explicar isso de um jeito que o paciente entenda.</p>
+        <div class="about-head">
+          <div class="about-text">
+            <p class="section-kicker" data-i18n="aboutKicker">Sobre</p>
+            <h2 class="section-title" id="about-title">Dr. Vitor Panizzon Spanholo</h2>
+            <p class="section-intro" data-i18n="aboutIntro">Médico formado pela ULBRA, com prática em urgência e atenção primária no Rio Grande do Sul. Meu interesse acadêmico está em oncologia e endocrinologia. O que une os dois é o mesmo princípio do conteúdo que publico: decidir com base no que o estudo mostrou e explicar isso de um jeito que o paciente entenda.</p>
+          </div>
+          <img class="about-photo" src="img/vitor-sobre.jpg" alt="Dr. Vitor Panizzon Spanholo sorrindo" width="1200" height="801" loading="lazy">
+        </div>
 
         <div class="cv">
           <div class="cv-block" data-icon="edu">
