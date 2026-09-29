@@ -3,7 +3,7 @@
   const EN = {
     skip: 'Skip to content',
     brandTag: 'Physician',
-    eyebrow: 'PHYSICIAN · CRM-RS [nº], BRAZIL',
+    eyebrow: 'PHYSICIAN · CRM-RS 59620, BRAZIL',
     navContent: 'Content', navTool: 'Tool', navResearch: 'Research', navAbout: 'About', navContact: 'Contact',
     heroTitle: 'Evidence-based medicine, with numbers and sources',
     heroLead: 'I am Dr. Vitor Panizzon Spanholo, a physician trained in Brazil. Here I share patient-facing explanations on metabolism, weight and prevention, and the clinical research I do in oncology.',
