@@ -7,7 +7,7 @@
     navContent: 'Content', navTool: 'Tool', navResearch: 'Research', navAbout: 'About', navContact: 'Contact',
     heroTitle: 'Evidence-based medicine, with numbers and sources',
     heroLead: 'I am Dr. Vitor Panizzon Spanholo, a physician trained in Brazil. Here I share patient-facing explanations on metabolism, weight and prevention, and the clinical research I do in oncology.',
-    heroCta1: 'Read the content', heroCta2: 'CV',
+    heroCta1: 'Read the content', heroCta2: 'About me',
     findTitle: 'What you will find here',
     find1k: 'For patients', find1t: 'Common questions, answered with trials',
     find1p: 'Metabolism, weight and prevention in plain language. Each answer shows the study behind it, and what that study does not show.',
@@ -58,23 +58,6 @@
     ongoingText: 'Systematic reviews and meta-analyses in gastrointestinal and urologic oncology, in collaboration with researchers in Brazil and the United States.',
     aboutKicker: 'About',
     aboutIntro: 'Physician trained at ULBRA, practicing urgent and primary care in southern Brazil. My academic interests are oncology and endocrinology. What connects them is the same principle behind my content: decide based on what the study showed, and explain it in a way patients understand.',
-    cvEdu: 'Education and certifications',
-    cvEdu1: '<strong>MD</strong> · Universidade Luterana do Brasil (ULBRA), 2025',
-    cvEdu2: '<strong>Outstanding Graduate Award</strong> · top quintile of the class',
-    cvEdu3: '<strong>ECFMG Certified</strong>',
-    cvEdu4: '<strong>ACLS and BLS</strong> · American Heart Association',
-    cvClin: 'Clinical practice',
-    cvClin1: '<strong>Urgent and emergency care</strong> · UPA 24h, Sapucaia do Sul, since 2025',
-    cvClin2: '<strong>Primary care</strong> · community health center, Canoas, 2025',
-    cvClin3: '<strong>Outpatient care and telemedicine</strong> · Porto Alegre metropolitan area',
-    cvIntl: 'U.S. clinical experience',
-    cvIntl1: '<strong>Gastrointestinal oncology</strong> · observership, H. Lee Moffitt Cancer Center, Tampa, 2026',
-    cvIntl2: '<strong>Endocrinology</strong> · observership, Jackson Memorial Hospital / University of Miami, 2025',
-    cvIntl3: '<strong>Cardiology</strong> · elective, Florida International University, Miami, 2024',
-    cvMore: 'Teaching and service',
-    cvMore1: '<strong>Teaching assistant</strong> · Physiology, Neuroanatomy and Physical Diagnosis, ULBRA, 2019–2024',
-    cvMore2: '<strong>Disaster relief volunteer</strong> · ULBRA shelter during the 2024 Rio Grande do Sul floods (102 h)',
-    cvMore3: '<strong>Languages</strong> · Portuguese, English and Spanish; learning Italian',
     contactKicker: 'Contact', contactTitle: 'Research, press and invitations',
     contactIntro: 'For research collaboration, interviews or talks, please reach out by email.',
     contactNotice: 'I do not answer questions about individual cases by message or social media. In an emergency, go to the nearest emergency department.',
@@ -195,7 +178,7 @@
   $('calc').addEventListener('submit', e => e.preventDefault());
 
   // ---------- Animação de entrada ----------
-  const revealables = document.querySelectorAll('.card, .faq details, .cv-block, .pubs li, .result');
+  const revealables = document.querySelectorAll('.card, .faq details, .pubs li, .result');
   if ('IntersectionObserver' in window) {
     const io = new IntersectionObserver(entries => {
       entries.forEach(entry => {
