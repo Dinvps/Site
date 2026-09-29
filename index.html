@@ -3,128 +3,322 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Promethya</title>
+  <title>Dr. Vitor Panizzon Spanholo · Médico · Medicina baseada em evidência</title>
+  <meta name="description" content="Dr. Vitor Panizzon Spanholo, médico (CRM-RS). Conteúdo educativo sobre metabolismo, peso e prevenção, com número e fonte, e pesquisa clínica em oncologia.">
+  <link rel="canonical" href="https://promethya.com/">
+  <meta name="theme-color" content="#0b5d75">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Dr. Vitor Panizzon Spanholo · Médico">
+  <meta property="og:description" content="Medicina baseada em evidência, com número e fonte. Metabolismo, peso, prevenção e pesquisa clínica.">
+  <meta property="og:url" content="https://promethya.com/">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b5d75'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='15' text-anchor='middle' fill='%23fff'%3EVS%3C/text%3E%3C/svg%3E">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Vitor Panizzon Spanholo",
+    "honorificPrefix": "Dr.",
+    "jobTitle": "Médico",
+    "url": "https://promethya.com/",
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universidade Luterana do Brasil (ULBRA)" },
+    "knowsLanguage": ["pt-BR", "en", "es"],
+    "sameAs": ["https://instagram.com/vitorpzsp", "https://youtube.com/@vitorpzsp"]
+  }
+  </script>
 </head>
 <body>
-  <!-- CABEÇALHO -->
+  <a class="skip-link" href="#main" data-i18n="skip">Pular para o conteúdo</a>
+
   <header class="header">
-    <nav class="container header-content">
-      <ul class="header-nav">
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#servicos">Serviços</a></li>
-      </ul>
-      
-      <div class="logo">Promethya</div>
-      
-      <ul class="header-nav">
-        <li><a href="#contato">Contato</a></li>
-        <li><a href="#redes">Redes</a></li>
-      </ul>
-    </nav>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Início">
+        <span class="brand-name">Vitor Spanholo</span>
+        <span class="brand-tag" data-i18n="brandTag">Médico</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Principal">
+        <a href="#conteudo" data-i18n="navContent">Conteúdo</a>
+        <a href="#ferramenta" data-i18n="navTool">Ferramenta</a>
+        <a href="#pesquisa" data-i18n="navResearch">Pesquisa</a>
+        <a href="#sobre" data-i18n="navAbout">Sobre</a>
+        <a href="#contato" data-i18n="navContact">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang" role="group" aria-label="Idioma / Language">
+          <button type="button" data-lang="pt" aria-pressed="true">PT</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="menu-btn" type="button" aria-controls="nav" aria-expanded="false" aria-label="Menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
   </header>
 
-  <!-- CONTEÚDO PRINCIPAL -->
-  <main>
-    <!-- SEÇÃO HERO -->
-    <section class="hero" id="inicio">
-      <div class="hero-content">
-        <h1 class="hero-title">
-          Aperte o <span class="gradient-text">Start</span><br>
-          da Sua Transformação
-        </h1>
-        <div class="scroll-indicator"></div>
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow" data-i18n="eyebrow">MÉDICO · CRM-RS [nº]</p>
+          <h1 data-i18n="heroTitle">Medicina baseada em evidência, <em>com número e fonte.</em></h1>
+          <p class="lead" data-i18n="heroLead">Sou o Dr. Vitor Panizzon Spanholo, médico formado no Brasil. Aqui reúno explicações para pacientes sobre metabolismo, peso e prevenção, e a pesquisa clínica que faço em oncologia.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#conteudo" data-i18n="heroCta1">Ler o conteúdo</a>
+            <a class="btn btn-ghost" href="#sobre" data-i18n="heroCta2">Currículo</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Resumo">
+          <div class="portrait" aria-hidden="true">
+            <!-- Trocar por: <img src="foto.jpg" alt="Dr. Vitor Panizzon Spanholo"> -->
+            <span>VS</span>
+          </div>
+          <ul class="facts">
+            <li><strong>ECFMG</strong> <span data-i18n="fact1">Certificado</span></li>
+            <li><strong>USMLE</strong> <span data-i18n="fact2">Step 1, 2 e 3</span></li>
+            <li><strong>ULBRA</strong> <span data-i18n="fact3">Medicina, 2025</span></li>
+            <li><strong>PT · EN · ES</strong> <span data-i18n="fact4">Idiomas</span></li>
+          </ul>
+        </aside>
       </div>
     </section>
 
-    <!-- SEÇÃO SOBRE -->
-    <section class="text-section" id="sobre">
+    <!-- O QUE VOCÊ ENCONTRA AQUI -->
+    <section class="section section-alt" aria-labelledby="find-title">
       <div class="container">
-        <h2 class="section-title">Dr. Vitor Panizzon Spanholo</h2>
-        <p class="section-text">
-          Iniciativa fundada pelo <strong>Dr. Vitor Panizzon Spanholo</strong>. A Promethya é 
-          inspirada no mito de Prometheus, o qual entregou à humanidade o dom da sabedoria que transformou seu destino. 
-          Oferecendo soluções em <strong>emagrecimento</strong>, <strong>reposição hormonal</strong> 
-          e <strong>otimização esportiva</strong>, meu ideal é trazer a mudança que você procura.
-        </p>
-      </div>
-    </section>
-
-    <!-- SEÇÃO SERVIÇOS -->
-    <section class="cards-section" id="servicos">
-      <div class="container">
-        <div class="services-grid">
-          <article class="service-card">
-            <h3>01</h3>
-            <h4>Emagrecimento</h4>
-            <p>Protocolos científicos para perda de peso sustentável e saúde metabólica.</p>
-          </article>
-          <article class="service-card">
-            <h3>02</h3>
-            <h4>Reposição Hormonal</h4>
-            <p>Equilíbrio hormonal personalizado para vitalidade e longevidade.</p>
-          </article>
-          <article class="service-card">
-            <h3>03</h3>
-            <h4>Otimização Esportiva</h4>
-            <p>Maximização de performance atlética com segurança e eficácia.</p>
-          </article>
+        <h2 class="section-title" id="find-title" data-i18n="findTitle">O que você encontra aqui</h2>
+        <div class="cards">
+          <a class="card" href="#conteudo">
+            <span class="card-kicker" data-i18n="find1k">Para pacientes</span>
+            <h3 data-i18n="find1t">Perguntas frequentes, respondidas com estudo</h3>
+            <p data-i18n="find1p">Metabolismo, peso e prevenção em linguagem simples. Cada resposta traz o estudo que a sustenta e o que ele não mostra.</p>
+          </a>
+          <a class="card" href="#ferramenta">
+            <span class="card-kicker" data-i18n="find2k">Ferramenta</span>
+            <h3 data-i18n="find2t">IMC e cintura-estatura</h3>
+            <p data-i18n="find2p">Uma calculadora com a interpretação da diretriz, para você entender os dois números antes da consulta.</p>
+          </a>
+          <a class="card" href="#pesquisa">
+            <span class="card-kicker" data-i18n="find3k">Para profissionais</span>
+            <h3 data-i18n="find3t">Pesquisa clínica</h3>
+            <p data-i18n="find3p">Publicações, pôsteres e projetos em andamento, com foco em oncologia e metabolismo.</p>
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- SEÇÃO CONTATO -->
-    <section class="contact-section" id="contato">
+    <!-- CONTEÚDO EDUCATIVO -->
+    <section class="section" id="conteudo" aria-labelledby="content-title">
+      <div class="container narrow">
+        <p class="section-kicker" data-i18n="contentKicker">Conteúdo educativo</p>
+        <h2 class="section-title" id="content-title" data-i18n="contentTitle">O que os estudos mostram</h2>
+        <p class="section-intro" data-i18n="contentIntro">Respostas curtas, com os números do estudo original. Não substituem uma consulta: servem para você chegar a ela com as perguntas certas.</p>
+
+        <div class="faq">
+          <details>
+            <summary data-i18n="q1">Quanto peso se perde com semaglutida ou tirzepatida?</summary>
+            <div class="answer" data-i18n="a1">
+              <p>Nos dois ensaios clínicos que levaram à aprovação para obesidade, em adultos sem diabetes que também receberam orientação de dieta e atividade física:</p>
+              <ul class="stats">
+                <li><span class="stat">−14,9%</span> <span>do peso com <strong>semaglutida 2,4 mg</strong> por semana em 68 semanas, contra −2,4% com placebo (STEP 1).</span></li>
+                <li><span class="stat">−20,9%</span> <span>com <strong>tirzepatida 15 mg</strong> por semana em 72 semanas, contra −3,1% com placebo. Com 5 mg, −15,0%; com 10 mg, −19,5% (SURMOUNT-1).</span></li>
+              </ul>
+              <p><strong>Como ler:</strong> é a média do grupo. Há quem perca bem mais e quem perca bem menos. Os efeitos adversos mais comuns foram gastrointestinais (náusea e diarreia), em geral leves a moderados e concentrados na fase de aumento de dose.</p>
+              <p class="refs">Fontes: Wilding JPH et al. <a href="https://doi.org/10.1056/NEJMoa2032183" target="_blank" rel="noopener">N Engl J Med 2021;384:989-1002</a> · Jastreboff AM et al. <a href="https://doi.org/10.1056/NEJMoa2206038" target="_blank" rel="noopener">N Engl J Med 2022;387:205-216</a></p>
+            </div>
+          </details>
+
+          <details>
+            <summary data-i18n="q2">Se eu parar a medicação, o peso volta?</summary>
+            <div class="answer" data-i18n="a2">
+              <p>Dois ensaios testaram exatamente isso. Todos usaram o remédio por alguns meses; depois, parte dos participantes passou para placebo sem saber.</p>
+              <ul class="stats">
+                <li><span class="stat">+6,9%</span> <span><strong>STEP 4:</strong> depois de 20 semanas de semaglutida (−10,6%), quem trocou para placebo recuperou 6,9% do peso até a semana 68. Quem continuou perdeu mais 7,9%.</span></li>
+                <li><span class="stat">+14,0%</span> <span><strong>SURMOUNT-4:</strong> depois de 36 semanas de tirzepatida (−20,9%), quem trocou para placebo recuperou 14,0% até a semana 88. Quem continuou perdeu mais 5,5%.</span></li>
+              </ul>
+              <p><strong>Como ler:</strong> obesidade é uma doença crônica e o efeito do remédio depende do uso contínuo. Parar, pausar ou mudar a dose é uma decisão para tomar com o seu médico.</p>
+              <p class="limit"><strong>O que ainda não sabemos:</strong> se reduzir a dose aos poucos, em vez de parar, protege contra o reganho. Os dados sobre isso ainda são poucos.</p>
+              <p class="refs">Fontes: Rubino D et al. <a href="https://doi.org/10.1001/jama.2021.3224" target="_blank" rel="noopener">JAMA 2021;325:1414-1425</a> · Aronne LJ et al. <a href="https://doi.org/10.1001/jama.2023.24945" target="_blank" rel="noopener">JAMA 2024;331:38-48</a></p>
+            </div>
+          </details>
+
+          <details>
+            <summary data-i18n="q3">Por que medir a cintura, e não só o IMC?</summary>
+            <div class="answer" data-i18n="a3">
+              <p>O IMC não separa gordura de músculo nem mostra onde a gordura está. A gordura abdominal é a que mais se associa a diabetes tipo 2, hipertensão e doença cardiovascular.</p>
+              <p>A <strong>razão cintura-estatura</strong> é a circunferência da cintura dividida pela altura, na mesma unidade. A diretriz britânica (NICE) classifica assim:</p>
+              <ul class="stats">
+                <li><span class="stat">0,40–0,49</span> <span>sem aumento de risco</span></li>
+                <li><span class="stat">0,50–0,59</span> <span>risco aumentado</span></li>
+                <li><span class="stat">≥ 0,60</span> <span>risco mais alto</span></li>
+              </ul>
+              <p><strong>Regra prática:</strong> manter a cintura abaixo da metade da altura.</p>
+              <p class="limit"><strong>Limites:</strong> vale para adultos com IMC abaixo de 35, de ambos os sexos e todas as etnias. É um marcador de risco, não um diagnóstico.</p>
+              <p class="refs">Fonte: NICE. <a href="https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity" target="_blank" rel="noopener">Overweight and obesity management (NG246), recomendação 1.9.14</a></p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- FERRAMENTA -->
+    <section class="section section-alt" id="ferramenta" aria-labelledby="tool-title">
+      <div class="container narrow">
+        <p class="section-kicker" data-i18n="toolKicker">Ferramenta</p>
+        <h2 class="section-title" id="tool-title" data-i18n="toolTitle">Calculadora de IMC e cintura-estatura</h2>
+        <p class="section-intro" data-i18n="toolIntro">Para adultos. Os dados ficam só no seu navegador: nada é enviado ou salvo.</p>
+
+        <form class="calc" id="calc" novalidate>
+          <div class="field">
+            <label for="peso" data-i18n="fWeight">Peso (kg)</label>
+            <input id="peso" name="peso" type="number" inputmode="decimal" min="20" max="400" step="0.1" placeholder="80">
+          </div>
+          <div class="field">
+            <label for="altura" data-i18n="fHeight">Altura (cm)</label>
+            <input id="altura" name="altura" type="number" inputmode="decimal" min="100" max="250" step="0.1" placeholder="175">
+          </div>
+          <div class="field">
+            <label for="cintura" data-i18n="fWaist">Cintura (cm) · opcional</label>
+            <input id="cintura" name="cintura" type="number" inputmode="decimal" min="40" max="250" step="0.1" placeholder="88">
+          </div>
+          <p class="field-help" data-i18n="fHelp">Meça a cintura no ponto médio entre a última costela e o topo do quadril, depois de expirar normalmente.</p>
+        </form>
+
+        <div class="results" id="results" aria-live="polite">
+          <div class="result">
+            <span class="result-label" data-i18n="rBmi">IMC</span>
+            <span class="result-value" id="bmiValue">—</span>
+            <span class="result-note" id="bmiNote"></span>
+          </div>
+          <div class="result">
+            <span class="result-label" data-i18n="rWhtr">Cintura-estatura</span>
+            <span class="result-value" id="whtrValue">—</span>
+            <span class="result-note" id="whtrNote"></span>
+          </div>
+        </div>
+        <p class="fine" data-i18n="toolFine">IMC classificado pela OMS; cintura-estatura pelo NICE (NG246). Para pessoas de ascendência sul-asiática, chinesa, do Oriente Médio, negra africana ou afro-caribenha, o NICE usa pontos de corte de IMC mais baixos (23 para sobrepeso e 27,5 para obesidade). Resultado educativo: não substitui avaliação médica.</p>
+      </div>
+    </section>
+
+    <!-- PESQUISA -->
+    <section class="section" id="pesquisa" aria-labelledby="research-title">
+      <div class="container narrow">
+        <p class="section-kicker" data-i18n="resKicker">Pesquisa</p>
+        <h2 class="section-title" id="research-title" data-i18n="resTitle">Publicações e apresentações</h2>
+
+        <ol class="pubs">
+          <li>
+            <span class="pub-type" data-i18n="pubArticle">Artigo de revisão</span>
+            <p>Pereira RA, Tumelero M, Schwengber WK, <strong>Spanholo VP</strong>, Lenz G. The impact of corticosteroid use on the efficacy and safety of checkpoint inhibitors across cancer types. <em>touchREVIEWS in Oncology &amp; Haematology</em>. 2025.</p>
+          </li>
+          <li>
+            <span class="pub-type" data-i18n="pubPoster">Pôster</span>
+            <p>Mourad NO, <strong>Spanholo V</strong>, Pereira R, Fidalgo T, Lemos B, Perseguino M. Eficácia do exercício físico no tratamento de transtornos do humor em jovens adultos: revisão sistemática. <em>XLII Congresso Brasileiro de Psiquiatria</em>, Rio de Janeiro, 2025.</p>
+          </li>
+          <li>
+            <span class="pub-type" data-i18n="pubPoster">Pôster</span>
+            <p>Cuchinski KK, Kalil E, Nora MM, Zimmer JRC, Souza YB, Siminovich PL, Danzmann LC, Trevisan MF, <strong>Spanholo VP</strong>, Feliciano LM. Prevalência do uso da medicação modificadora de prognóstico e taxa de internação por ICFEr: um registro do mundo real. <em>Congresso da SOCERGS</em>, Porto Alegre, 2023.</p>
+          </li>
+          <li>
+            <span class="pub-type" data-i18n="pubTrial">Pesquisa clínica</span>
+            <p data-i18n="pubTrialText">Equipe do centro ULBRA no estudo multicêntrico <em>Rosa dos Ventos</em> (insuficiência cardíaca): elegibilidade, consentimento, inclusão e coleta de dados.</p>
+          </li>
+        </ol>
+
+        <div class="ongoing">
+          <h3 data-i18n="ongoingTitle">Em andamento</h3>
+          <p data-i18n="ongoingText">Revisões sistemáticas e meta-análises em oncologia gastrointestinal e urológica, em colaboração com pesquisadores no Brasil e nos EUA.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE / MINI CV -->
+    <section class="section section-alt" id="sobre" aria-labelledby="about-title">
       <div class="container">
-        <div class="contact-content">
-          <h2 class="section-title">Transforme Sua Vida</h2>
-          <p class="section-text">Agende sua consulta para uma abordagem personalizada</p>
-          <div class="contact-buttons">
-            <a href="https://wa.me/5554999590944" class="button">
-              <span>Agendar por WhatsApp</span>
-            </a>
-            <a href="mailto:vitorpanizzon@gmail.com" class="button">
-              <span>Enviar E-mail</span>
-            </a>
+        <p class="section-kicker" data-i18n="aboutKicker">Sobre</p>
+        <h2 class="section-title" id="about-title">Dr. Vitor Panizzon Spanholo</h2>
+        <p class="section-intro wide" data-i18n="aboutIntro">Médico formado pela ULBRA, com prática em urgência e atenção primária no Rio Grande do Sul. Meu interesse acadêmico está em oncologia e endocrinologia. O que une os dois é o mesmo princípio do conteúdo que publico: decidir com base no que o estudo mostrou e explicar isso de um jeito que o paciente entenda.</p>
+
+        <div class="cv">
+          <div class="cv-block">
+            <h3 data-i18n="cvEdu">Formação e certificações</h3>
+            <ul>
+              <li data-i18n="cvEdu1"><strong>Medicina</strong> · Universidade Luterana do Brasil (ULBRA), 2025</li>
+              <li data-i18n="cvEdu2"><strong>Outstanding Graduate Award</strong> · quintil superior da turma</li>
+              <li data-i18n="cvEdu3"><strong>ECFMG Certified</strong> · habilitação para a pós-graduação médica nos EUA</li>
+              <li data-i18n="cvEdu4"><strong>ACLS e BLS</strong> · American Heart Association</li>
+            </ul>
+          </div>
+          <div class="cv-block">
+            <h3 data-i18n="cvClin">Prática clínica</h3>
+            <ul>
+              <li data-i18n="cvClin1"><strong>Urgência e emergência</strong> · UPA 24h, Sapucaia do Sul, desde 2025</li>
+              <li data-i18n="cvClin2"><strong>Atenção primária</strong> · unidade de saúde em Canoas, 2025</li>
+              <li data-i18n="cvClin3"><strong>Atendimento ambulatorial e teleconsulta</strong> · Região Metropolitana de Porto Alegre</li>
+            </ul>
+          </div>
+          <div class="cv-block">
+            <h3 data-i18n="cvIntl">Experiência internacional</h3>
+            <ul>
+              <li data-i18n="cvIntl1"><strong>Oncologia gastrointestinal</strong> · observership, H. Lee Moffitt Cancer Center, Tampa, 2026</li>
+              <li data-i18n="cvIntl2"><strong>Endocrinologia</strong> · observership, Jackson Memorial Hospital / University of Miami, 2025</li>
+              <li data-i18n="cvIntl3"><strong>Cardiologia</strong> · estágio eletivo, Florida International University, Miami, 2024</li>
+            </ul>
+          </div>
+          <div class="cv-block">
+            <h3 data-i18n="cvMore">Ensino e serviço</h3>
+            <ul>
+              <li data-i18n="cvMore1"><strong>Monitoria</strong> · Fisiologia, Neuroanatomia e Semiologia, ULBRA, 2019–2024</li>
+              <li data-i18n="cvMore2"><strong>Voluntariado</strong> · abrigo da ULBRA nas enchentes do RS, 2024 (102 h)</li>
+              <li data-i18n="cvMore3"><strong>Idiomas</strong> · português, inglês e espanhol; italiano em estudo</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- SEÇÃO REDES SOCIAIS -->
-    <section class="social-section" id="redes">
-      <div class="container">
-        <div class="social-content">
-          <h2 class="social-title"></h2>
-          <div class="social-links">
-            <a href="https://youtube.com/@vitorpzsp" class="social-link">
-              <span>YouTube</span>
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
-                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
-              </svg>
-            </a>
-            <a href="https://instagram.com/vitorpzsp" class="social-link">
-              <span>Instagram</span>
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-              </svg>
-            </a>
-          </div>
+    <!-- CONTATO -->
+    <section class="section" id="contato" aria-labelledby="contact-title">
+      <div class="container narrow center">
+        <p class="section-kicker" data-i18n="contactKicker">Contato</p>
+        <h2 class="section-title" id="contact-title" data-i18n="contactTitle">Pesquisa, imprensa e convites</h2>
+        <p class="section-intro" data-i18n="contactIntro">Para colaboração em pesquisa, entrevistas ou aulas, escreva por e-mail.</p>
+        <div class="cta-row center">
+          <a class="btn btn-primary" href="mailto:spanholo.vitor@gmail.com">spanholo.vitor@gmail.com</a>
         </div>
+        <div class="socials">
+          <a href="https://instagram.com/vitorpzsp" target="_blank" rel="noopener" aria-label="Instagram @vitorpzsp">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/></svg>
+            Instagram
+          </a>
+          <a href="https://youtube.com/@vitorpzsp" target="_blank" rel="noopener" aria-label="YouTube @vitorpzsp">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor" stroke="none"/></svg>
+            YouTube
+          </a>
+        </div>
+        <p class="notice" data-i18n="contactNotice">Não respondo dúvidas sobre casos individuais por mensagem ou rede social. Em urgência, procure o pronto-atendimento mais próximo ou ligue 192.</p>
       </div>
     </section>
   </main>
 
-  <!-- RODAPÉ -->
   <footer class="footer">
-    <div class="container">
-      <p>© 2025 Promethya. Todos os direitos reservados.</p>
+    <div class="container footer-inner">
+      <p><strong>Dr. Vitor Panizzon Spanholo</strong> · MÉDICO · CRM-RS [nº]</p>
+      <p data-i18n="footerEdu">Conteúdo educativo. Não substitui consulta médica.</p>
+      <p class="footer-muted"><span data-i18n="footerBrand">Promethya · educação em saúde baseada em evidência</span> · <span data-i18n="footerUpdated">Atualizado em setembro de 2026</span></p>
     </div>
   </footer>
 
