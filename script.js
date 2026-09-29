@@ -5,7 +5,7 @@
     brandTag: 'Physician',
     eyebrow: 'PHYSICIAN · CRM-RS [nº], BRAZIL',
     navContent: 'Content', navTool: 'Tool', navResearch: 'Research', navAbout: 'About', navContact: 'Contact',
-    heroTitle: 'Evidence-based medicine, <em>with numbers and sources.</em>',
+    heroTitle: 'Evidence-based medicine, with numbers and sources',
     heroLead: 'I am Dr. Vitor Panizzon Spanholo, a physician trained in Brazil. Here I share patient-facing explanations on metabolism, weight and prevention, and the clinical research I do in oncology.',
     heroCta1: 'Read the content', heroCta2: 'CV',
     fact1: 'Certified', fact2: 'Step 1, 2 and 3', fact3: 'MD, 2025', fact4: 'Languages',
