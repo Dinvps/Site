@@ -57,7 +57,7 @@
     ongoingTitle: 'Ongoing',
     ongoingText: 'Systematic reviews and meta-analyses in gastrointestinal and urologic oncology, in collaboration with researchers in Brazil and the United States.',
     aboutKicker: 'About',
-    aboutIntro: 'Physician trained at ULBRA, practicing urgent and primary care in southern Brazil. My academic interests are oncology and endocrinology. What connects them is the same principle behind my content: decide based on what the study showed, and explain it in a way patients understand.',
+    aboutIntro: 'Physician who has passed all three Steps of the USMLE, the U.S. medical licensing exam, and is ECFMG-certified. I conduct clinical research in oncology and metabolism, with published work and more underway, and I bring to patient care what I learned at Moffitt Cancer Center in Florida and Jackson Memorial in Miami.',
     contactKicker: 'Contact', contactTitle: 'Research, press and invitations',
     contactIntro: 'For research collaboration, interviews or talks, please reach out by email.',
     contactNotice: 'I do not answer questions about individual cases by message or social media. In an emergency, go to the nearest emergency department.',
